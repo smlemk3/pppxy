@@ -100,7 +100,6 @@ echo $url."\n";
 echo $referer."\n";
 echo $uga."\n";
 */
-//echo make_referer("https://www.1004cd.com/m/view.php?bo_table=vod1&wr_id=16890&page=1");
 $cts = curl_get($url,$referer,0,$uga);
 echo $cts['datas'];
 ?>
